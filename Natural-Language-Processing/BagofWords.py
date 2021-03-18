@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jan  2 22:19:40 2019
-
-@author: Krish.Naik
-"""
-
 import nltk
 
 paragraph =  """I have three visions for India. In 3000 years of our history, people from all over 
@@ -54,9 +47,4 @@ for i in range(len(sentences)):
 from sklearn.feature_extraction.text import CountVectorizer
 cv = CountVectorizer(max_features = 1500)
 X = cv.fit_transform(corpus).toarray()
-
-
-
-
-
 
