@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Nov 24 12:55:52 2019
-
-@author: krish.naik
-"""
 import nltk
 
 from gensim.models import Word2Vec
@@ -63,4 +57,4 @@ words = model.wv.vocab
 vector = model.wv['war']
 
 # Most similar words
-similar = model.wv.most_similar('vikram')
+similar = model.wv.most_similar('freedom')
